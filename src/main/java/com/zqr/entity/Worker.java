@@ -16,6 +16,16 @@ public class Worker {
 
     private String grade;
 
+    public Worker(int id, String name, String age, String grade) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.grade = grade;
+    }
+
+    public Worker() {
+    }
+
     public int getId() {
         return id;
     }
