@@ -13,6 +13,10 @@ import java.lang.reflect.InvocationTargetException;
  * @createTime 2022/2/16 16:39
  */
 
+/**
+ * BeanUtils.copyProperties: 相同字段copy，其他不处理，null也copy！！！
+ **/
+
 public class BeanUtilTest {
     public static void main(String[] args) throws InvocationTargetException, IllegalAccessException {
         People people = new People();
@@ -32,7 +36,7 @@ public class BeanUtilTest {
 
         System.out.println(worker);
         System.out.println(people);
-        /*结果显示：相同字段copy，其他不处理，null也copy
+        /*结果显示：相同字段copy，其他不处理，null也copy！！！
          Worker{id=1, name='joke', age='null', grade='light'}
          People{id=1, name='joke', sex='boy', age='null'}
          **/

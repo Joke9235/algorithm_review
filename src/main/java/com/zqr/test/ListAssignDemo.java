@@ -25,10 +25,9 @@ public class ListAssignDemo {
         list.add(worker3);
         list.add(worker4);
         System.out.println(list.toString());
-        list.forEach(e -> {
+        list.stream().forEach(e -> {
             e.setGrade("0");
         });
         System.out.println(list.toString());
-
     }
 }
