@@ -1,4 +1,4 @@
-package com.zqr.test;
+package com.zqr.study;
 
 import com.zqr.entity.People;
 import com.zqr.entity.Worker;
@@ -8,7 +8,7 @@ import java.lang.reflect.InvocationTargetException;
 
 /**
  * @author Kendric
- * @className BeanUtilTest
+ * @className BeanUtilDemo
  * @description Bean工具类
  * @createTime 2022/2/16 16:39
  */
@@ -17,7 +17,7 @@ import java.lang.reflect.InvocationTargetException;
  * BeanUtils.copyProperties: 相同字段copy，其他不处理，null也copy！！！
  **/
 
-public class BeanUtilTest {
+public class BeanUtilDemo {
     public static void main(String[] args) throws InvocationTargetException, IllegalAccessException {
         People people = new People();
         people.setId(1);

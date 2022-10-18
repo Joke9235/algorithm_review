@@ -1,4 +1,4 @@
-package com.zqr.test;
+package com.zqr.study;
 
 import com.zqr.entity.Worker;
 
@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * @author Kendric
  * @className ListAssignDemo
- * @description 修改List所以对象的某个属性的值
+ * @description 修改List所有对象的某个属性的值
  * @createTime 2022/5/30 13:35
  */
 
@@ -25,6 +25,7 @@ public class ListAssignDemo {
         list.add(worker3);
         list.add(worker4);
         System.out.println(list.toString());
+        // 使用List.stream().forEach 直接对对象进行赋值
         list.stream().forEach(e -> {
             e.setGrade("0");
         });

@@ -1,4 +1,4 @@
-package com.zqr.test;
+package com.zqr.study;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -6,11 +6,11 @@ import java.util.Date;
 
 /**
  * @author Kendric
- * @className Test01
+ * @className GetDateRangeDemo
  * @description 获取日期范围，如，ThisMonth，LastMonth，last 3 Month...
  * @createTime 2021/9/2 10:30
  */
-public class DateRange {
+public class GetDateRangeDemo {
     private static SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 
     public static void main(String[] args) throws Exception {
