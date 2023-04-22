@@ -1,4 +1,4 @@
-package com.zqr.question;
+package com.zqr.study;
 
 import java.util.HashMap;
 import java.util.Map;

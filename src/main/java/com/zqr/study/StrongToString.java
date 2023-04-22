@@ -1,4 +1,4 @@
-package com.zqr.test;
+package com.zqr.study;
 
 import com.zqr.entity.OtherPeople;
 
@@ -19,7 +19,7 @@ import com.zqr.entity.OtherPeople;
  *
  **/
 
-public class PrintofInherit {
+public class StrongToString {
 
     public static void main(String[] args) {
         OtherPeople other = new OtherPeople();

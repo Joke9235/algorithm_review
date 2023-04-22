@@ -1,4 +1,4 @@
-package com.zqr.test;
+package com.zqr.study;
 
 /**
  * @author Kendric

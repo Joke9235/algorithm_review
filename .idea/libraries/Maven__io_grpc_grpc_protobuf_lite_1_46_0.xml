@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: io.grpc:grpc-protobuf-lite:1.46.0">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../Tools/maven/repository/io/grpc/grpc-protobuf-lite/1.46.0/grpc-protobuf-lite-1.46.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Environment/Maven/repository/io/grpc/grpc-protobuf-lite/1.46.0/grpc-protobuf-lite-1.46.0.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../../Tools/maven/repository/io/grpc/grpc-protobuf-lite/1.46.0/grpc-protobuf-lite-1.46.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Environment/Maven/repository/io/grpc/grpc-protobuf-lite/1.46.0/grpc-protobuf-lite-1.46.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../../Tools/maven/repository/io/grpc/grpc-protobuf-lite/1.46.0/grpc-protobuf-lite-1.46.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Environment/Maven/repository/io/grpc/grpc-protobuf-lite/1.46.0/grpc-protobuf-lite-1.46.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

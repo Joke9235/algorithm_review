@@ -12,7 +12,7 @@ import java.util.Random;
 
 public class RandomNumberDemo {
     public static void main(String[] args) {
-        for (int i = 0;i<100;i++){
+        for (int i = 0;i<1;i++){
             System.out.println(generateRandomNum(6));
         }
     }
