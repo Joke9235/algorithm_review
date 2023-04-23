@@ -1,2 +1,5 @@
 /out/
 /target/
+/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml
+/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml
+/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml
