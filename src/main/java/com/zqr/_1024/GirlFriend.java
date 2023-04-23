@@ -13,7 +13,7 @@ public class GirlFriend {
     public static GirlFriend getGirlFriend(){
         if(girlFriend ==null){
             girlFriend =new GirlFriend();
-            System.out.println(girlFriend.toString());
+            System.out.println(girlFriend);
             heart();
             return girlFriend;
         }
@@ -29,7 +29,7 @@ public class GirlFriend {
         System.out.println("JAVA: 和女朋友一起去看了一场电影，你和女朋友的关系又更进了一步呢！");
     }
 
-    public void doSomething(){}
+    public void doSomething(){System.out.println("JAVA: 和女朋友亲亲,抱抱,举高高！");}
 
     final private String sex = "女";          //性别
     final private int age = 18;               //年龄
