@@ -52,6 +52,11 @@ class People {
     public People() {
     }
 
+    public People(String name, String sex) {
+        this.name = name;
+        this.sex = sex;
+    }
+
     public People(String name) {
         this.name = name;
     }
